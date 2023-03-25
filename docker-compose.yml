@@ -21,4 +21,4 @@ services:
             - './zerotier-one:/var/lib/zerotier-one'
             - './ztncui/etc:/opt/key-networks/ztncui/etc'
             # 按实际路径挂载卷， 冒号前面是宿主机的， 支持相对路径
-        image: keynetworks/ztncui
+        image: keynetworks/ztncui:1.2.14
